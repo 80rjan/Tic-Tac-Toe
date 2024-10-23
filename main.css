@@ -1,0 +1,41 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+#everythingWrapper {
+    display: grid;
+    grid-template-columns: 70% auto;
+    gap: 10px;
+    grid-auto-rows: 20px;
+}
+#gameWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 500px;
+    font-size: 25px;
+}
+.cell {
+    font-size: 40px;
+    background: midnightblue;
+    border: #eee solid 1px;
+    color: white;
+}
+
+#scoreBoard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Roboto;
+    padding: 0px 60px;
+}
+.scoreBoardPlayerName {
+    text-align: center;
+    padding: 10px;
+    border-bottom: black solid 1px;
+}
+.scoreBoardPlayerScore {
+    text-align: center;
+}
